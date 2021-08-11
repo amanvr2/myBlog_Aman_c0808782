@@ -509,6 +509,174 @@ margin: 0 auto;
 
 
 
+    .head{
+        width: 100%;
+        height: 500px;
+    }
+
+    .logo>img{
+        height: 65px;
+        width: 80px;
+    }
+
+
+
+    .intro{
+        height: auto;
+        width: 100%;
+    }
+
+    .intro-list{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .head-content>h4{
+        font-size: 16px;
+        padding: 31px;
+    }
+
+    .intro-list{
+        padding-top: 20px;
+    }
+
+    .intro-img{
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .intro-item{
+        width: 75%;
+        text-align: justify;
+        padding-bottom: 30px;
+    }
+
+    .intro-item>p{
+        font-size: 15px;
+    }
+
+    .intro-img>img{
+       
+        height: 180px;
+        width: 130px;
+    }
+
+    .goal{
+        height: auto;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .goal-sub>h3{
+        padding-bottom: 20px;
+
+    }
+
+    .goal-sub>p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .proficiency{
+        height: auto;
+        width: 100%;
+    }
+
+    .prof-list{
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .prof-items{
+        width: 90%;
+        padding: 0px;
+        padding-top: 20px;
+    }
+
+    .prof-items>h4{
+        font-size: 21px;
+    }
+
+    .prof-items>h5{
+        font-size: 19px;
+    }
+
+    .prof-item{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .prof-item>img{
+        height: 265px;
+        width: 300px;
+    }
+    .footer-links{
+        display: none;
+    }
+
+    .footer-icons{
+        width: 80%;
+    }
+
+
+    .work-head{
+        padding: 20px;
+    }
+
+    .work-head>p{
+        text-align: justify;
+    }
+
+    .work-1,.work-2,.work-3,.work-4,.work-5,.work-6,.work-7,.work-8,.work-9{
+        height: auto;
+        width: 100%;
+    }
+
+
+.work1-list{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.work1-content,.work2-content,.work3-content,.work4-content,.work5-content,.work6-content,.work7-content,.work8-content,.work9-content{
+    width: 100%;
+    padding: 10px;
+}
+
+.work1-image{
+    width: 100%;
+    margin:0px;
+    display: flex;
+    justify-content: center;
+}
+
+.work1-image>img{
+    height: 200px;
+    width: 330px;
+    margin-top: 20px;
+}
+
+
+#a{
+    margin: 10px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -529,3 +697,28 @@ margin: 0 auto;
 
 
 }
+
+
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
