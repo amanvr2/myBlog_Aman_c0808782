@@ -160,9 +160,13 @@
     padding-top: 40px;
 }
 
-.prof-items>a{
+.prof-items>button{
     width: 150px;
     border-radius: 2rem;
+    background-color: white;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     
     
 }
