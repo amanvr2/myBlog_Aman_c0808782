@@ -393,15 +393,33 @@
   color: white;
 }
 
-.work1-content>a{
+#btn{
   background: #212121;
-  color: white;
+  border-radius: 0.5rem;
+  padding: 10px;
 }
 
-.work2-content>a{
-  background: #212121;
+#a{
   color: white;
+  text-decoration: none;
+  font-size: 18px;
+ 
 }
+#btn-white{
+
+  border-radius: 0.5rem;
+  padding: 10px;
+  border: 1px solid white;
+  background-color: #034E94;
+}
+
+#a-white{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+ 
+}
+
 
 .work3-content>a{
   background-color:#212121 ;
