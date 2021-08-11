@@ -1,0 +1,531 @@
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color:white;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: darkgray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+  body{margin: 0;
+    font-family: 'Montserrat', sans-serif;}
+
+  .logo{
+    text-align: center;
+}
+.logo>img{
+    height: 65px;
+    width: 80px;
+}
+.work-head{
+    padding-left: 40px;
+  }
+  
+  .work-1{
+    background-color: #F1F1F1;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .work-2{
+    background-color: #313131;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .work-3{
+    background-color: #1864AB;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .work-4{
+    background-color: #00CB84;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .work-5{
+    background-color: #457868;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .work-6{
+    background-color: #F1F1F1;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .work-7{
+    background-color: #212529;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .work-8{
+    background-color: #1864AB;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .work-9{
+    background-color: teal;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .work1-list{
+    width: 70%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+  }
+  
+  .work1-content{
+    width: 70%;
+    padding-left: 50px;
+  }
+  
+  .work2-content{
+    width: 70%;
+    padding-left: 50px;
+  }
+  
+  .work3-content{
+    width: 70%;
+    padding-left: 50px;
+  }
+  
+  .work4-content{
+    width: 70%;
+    padding-left: 50px;
+  }
+  
+  .work5-content{
+    width: 70%;
+    padding-left: 50px;
+  }
+  
+  .work6-content{
+    width: 70%;
+    padding-left: 50px;
+  }
+  
+  .work7-content{
+    width: 70%;
+    padding-left: 50px;
+  }
+  
+  .work8-content{
+    width: 70%;
+    padding-left: 50px;
+  }
+  
+  .work9-content{
+    width: 70%;
+    padding-left: 50px;
+  }
+  
+  .work2-content>h2,.work2-content>p,.work3-content>h2,.work3-content>p,.work4-content>p,.work4-content>h2,.work5-content>p,.work5-content>h2,.work7-content>p,.work7-content>h2,.work8-content>p,.work8-content>h2,.work9-content>p,.work9-content>h2{
+    color: white;
+  }
+  
+  #btn{
+    background: #212121;
+    border-radius: 0.5rem;
+    padding: 10px;
+  }
+  
+  #a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+   
+  }
+  #btn-white{
+  
+    border-radius: 0.5rem;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: #034E94;
+  }
+  
+  #a-white{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+   
+  }
+  
+  
+  .work3-content>a{
+    background-color:#212121 ;
+    color: white;
+  }
+  
+  .work4-content>a{
+    background-color:#212121 ;
+    color: white;
+  }
+  
+  .work6-content>a{
+    background-color:#212121 ;
+    color: white;
+  }
+  
+  .work1-image{
+    width: 30%;
+    margin-left: 30px;
+  }
+  
+  .work1-image>img{
+    height: 240px;
+    width: 350px;
+  }
+  
+  .all-work{
+    background-color: #034E94;
+    text-align: center;
+    width: 100%;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .all-work>a{
+    border-radius: 2rem;
+    background-color: 034E94;
+    color: white;
+    border: 1px solid white;
+  }
+  
+  .all-work>a:hover{
+    background-color: white;
+    color: 034E94;
+  }
+  
+
+.footer{
+    height: 150px;
+    width: 100%;
+    background-color: #212529;
+    /* justify-content: center; */
+    align-items: center;
+    
+    display: flex;
+    flex-flow: row; 
+    justify-content: space-evenly;
+    
+  }
+  
+  
+  .footer-icons{
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: space-evenly;
+  }
+  
+  .footericons-item>a{
+  
+    font-size: 24px;
+    color: white;
+  }
+  
+  
+  .footer-links{
+  
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content:flex-end;
+    padding-right: 20px;
+  
+  }
+  
+  .footerlinks-item>a{
+    font-size: 20px;
+    padding: 40px;
+    color: white;
+    
+  }
+  
+  .footer-copy{
+  
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  
+  .footer-copy>p{
+    text-align: center;
+  }
+  
+  .footerlinks-item>a{text-decoration: none;}
+
+  
+
+
+
+
+
+
+  .contactus-banner{
+
+    background-image: url('file:///Users/macbook/Documents/myBlog_aman_c0808782/images/apple.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    width:100%;
+    text-align: center;
+    color:white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-items: center;
+    margin: 0 auto;
+}
+
+.contactus-header>h1{
+
+    font-size: 50px;
+
+
+}
+.contactus-header>p{
+
+    font-size: 18px;
+
+
+}
+
+.address{
+
+    
+    
+background-size: cover;
+background-attachment: fixed;
+height: 500px;
+width:100%;
+/* background-image: url('../Static/Images/texture.jpg'); */
+text-align: center;
+display: flex;
+flex-flow: row;
+align-items: center;
+align-content: center;
+justify-content: center;
+flex-wrap: wrap;
+justify-items: center;
+margin: 0 auto;
+
+    
+}
+
+.address-list{
+
+    
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: 98%;
+    /* text-align: justify; */
+    justify-content: space-evenly;
+}
+
+.address-item{
+
+    width:25%;
+    height:auto;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15%; 
+    box-shadow: 5px 10px ;
+    
+}
+
+
+
+.address-itemheader>p{
+
+    /* padding: 20px; */
+    font-size: 15px;
+    /* color: white; */
+}
+
+.contactus-pic>img{
+
+    height: 300px;
+    width: 400px;
+}
+
+.form{
+
+    
+    height: auto;
+    width: 70%;
+    justify-content: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-items: center;
+    margin: 0 auto;
+    padding: 30px;
+}
+.container{
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+.jumbotron>h1{
+
+    font-size: 40px;
+    text-align: center;
+}
+
+.jumbotron>h2{
+
+    font-size: 18px;
+}
+
+.form-group{
+
+    width: 100%;
+    text-align: start;
+    justify-content: center;
+}
+
+
+
+.form-banner{
+
+    width: 100%;
+    background-color: grey;
+}
+
+@media screen and (max-width:768px){
+
+
+    .address{
+
+        height: auto;
+    }
+
+.address-item{
+
+    height: auto;
+    width: 70%;
+    margin: 20px;
+}
+
+.form{
+
+    width: 100%;
+   
+   
+}
+
+
+.form-group{
+
+    width: 100%;
+}
+
+.container{
+
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
