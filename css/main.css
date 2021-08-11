@@ -129,7 +129,7 @@
 .proficiency{
     width: 100%;
     background-color:lightgray;
-    height: 500px;
+    height: auto;
 }
 
 .prof-list{
@@ -187,6 +187,67 @@
 
 }
 
+
+.footer{
+  height: 150px;
+  width: 100%;
+  background-color: #212529;
+  /* justify-content: center; */
+  align-items: center;
+  
+  display: flex;
+  flex-flow: row; 
+  justify-content: space-evenly;
+  
+}
+
+
+.footer-icons{
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  justify-content: space-evenly;
+}
+
+.footericons-item>a{
+
+  font-size: 24px;
+  color: white;
+}
+
+
+.footer-links{
+
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  justify-content:flex-end;
+  padding-right: 20px;
+
+}
+
+.footerlinks-item>a{
+  font-size: 20px;
+  padding: 40px;
+  color: white;
+  
+}
+
+.footer-copy{
+
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.footer-copy>p{
+  text-align: center;
+}
+
+.footerlinks-item>a{text-decoration: none;}
 
 
 
